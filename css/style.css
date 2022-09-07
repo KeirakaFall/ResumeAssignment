@@ -1,0 +1,66 @@
+/*
+COLOR PALETTE
+https://coolors.co/14080e-49475b-799496-acc196-fff4e4
+#14080e - xiketic
+#49475b - independence
+#799496 - steel teal
+#acc196 - laurel green
+#fff4e4 - old lace
+#ffff   - White
+*/ 
+
+/* Global Styles
+---------------------------------------------*/
+body{
+    color:#14080e;
+}
+img{
+    width: 300px;
+}
+a{
+    color:#799496;
+}
+a:hover{
+    text-decoration: none;
+}
+
+/* Profile
+---------------------------------------------*/
+header{
+    background-color:#799496;
+    color: #ffff;
+}
+
+/* Projects
+---------------------------------------------*/
+.projects{
+    background-color:#fff4e4;
+}
+
+.btn {
+    color: #ffff;
+    background: #799496;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+.btn:hover{
+    background: rgba(121, 148, 150, 80)
+}
+/* Work Experience
+---------------------------------------------*/
+.work-exp{
+    background-color:#acc196;
+}
+
+/* Education
+---------------------------------------------*/
+
+
+/* Contact Info
+---------------------------------------------*/
+footer{
+   background-color: #49475b; 
+   color: #ffff;
+}
