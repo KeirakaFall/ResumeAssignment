@@ -11,8 +11,18 @@ https://coolors.co/14080e-49475b-799496-acc196-fff4e4
 
 /* Global Styles
 ---------------------------------------------*/
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 body{
     color:#14080e;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
 }
 img{
     width: 300px;
@@ -23,7 +33,22 @@ a{
 a:hover{
     text-decoration: none;
 }
+h2{
+    margin: 0%;
+}
 
+h3{
+    font-size: 20px;
+}
+h1,h2{
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 40px;
+}
+.content-wrap{
+    width: 900px;
+    margin: 0 auto;
+    padding: 60px 0
+}
 /* Profile
 ---------------------------------------------*/
 header{
@@ -43,11 +68,28 @@ header{
     text-decoration: none;
     padding: 8px;
     border-radius: 6px;
+    display: inline-block;
 }
 
 .btn:hover{
     background: rgba(121, 148, 150, 80)
 }
+
+.project-item{
+    overflow: hidden;
+    border-bottom: 1px solid #14080e ;
+    padding: 30px 0;
+}
+.project-item img{
+    float: left;
+    margin-right: 20px;
+}
+
+.project-item h3 {
+    margin-top: 0;
+}
+
+
 /* Work Experience
 ---------------------------------------------*/
 .work-exp{
